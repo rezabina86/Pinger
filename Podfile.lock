@@ -1,0 +1,16 @@
+PODS:
+  - GBPing (1.5.1)
+
+DEPENDENCIES:
+  - GBPing
+
+SPEC REPOS:
+  trunk:
+    - GBPing
+
+SPEC CHECKSUMS:
+  GBPing: d7fb1b91990f1d2a0f07f72e0fe79e91ee9fc3ba
+
+PODFILE CHECKSUM: f650364c3f5d74cabfd90bcbd24f27c966269c3b
+
+COCOAPODS: 1.8.4

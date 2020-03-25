@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Pinger
+
+  Created by Reza Bina on 2020-03-21.
+  Copyright © 2020 Reza Bina. All rights reserved.
+*/
+
+"appName" = "Pinger";
+"sort" = "Sort";
+"sortByIp" = "Sort by IP";
+"sortByReachability" = "Sort by reachability";
+"ok" = "Ok";
+"noNetworkTitle" = "No network connection";
+"noNetworkMessage" = "You've lost your network connectivity.\nPlease check your network settings";
+"welcomeTitle" = "Welcome to Pinger";
+"welcomeBody" = "This app pings all IP addresses in a local network and when done, displays results in a list.\nFor example, if your local network IP address is 192.168.1.x, the app pings all of the IP addresses from 192.168.1.1 to 192.168.1.254 inclusively.\nPlease tap play button at the top right corner.";

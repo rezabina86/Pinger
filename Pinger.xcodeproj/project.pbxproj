@@ -3,17 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50BBDA38D453E9A2223BFA17 /* Pods_PingerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910DE3263AECF007F41283C /* Pods_PingerTests.framework */; };
 		B651B34F24260634008440A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B34E24260634008440A6 /* AppDelegate.swift */; };
-		B651B35124260634008440A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B35024260634008440A6 /* SceneDelegate.swift */; };
 		B651B35324260634008440A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B35224260634008440A6 /* ViewController.swift */; };
-		B651B35624260634008440A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B651B35424260634008440A6 /* Main.storyboard */; };
 		B651B35824260636008440A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B651B35724260636008440A6 /* Assets.xcassets */; };
 		B651B35B24260636008440A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B651B35924260636008440A6 /* LaunchScreen.storyboard */; };
 		B651B36624260636008440A6 /* PingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B36524260636008440A6 /* PingerTests.swift */; };
+		B651B377242609AD008440A6 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B376242609AD008440A6 /* Configure.swift */; };
+		B65535DA242B5F2F004C9EDE /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65535D9242B5F2F004C9EDE /* UIViewController+Alert.swift */; };
+		B65535DD242B7685004C9EDE /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65535DC242B7685004C9EDE /* EmptyStateView.swift */; };
+		B65535DF242B776C004C9EDE /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65535DE242B776C004C9EDE /* Caption.swift */; };
+		B65535E1242B7B1C004C9EDE /* UITableView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65535E0242B7B1C004C9EDE /* UITableView+EmptyState.swift */; };
+		B68AFF8E2428E9D200F8733E /* NetworkScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68AFF8D2428E9D200F8733E /* NetworkScanner.swift */; };
+		B6AB287124268E33005DD4F5 /* PingSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB287024268E33005DD4F5 /* PingSummary.swift */; };
+		B6B1619E242679E50027CDF8 /* UIDevice+ipAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B1619D242679E50027CDF8 /* UIDevice+ipAddress.swift */; };
+		B6B8B65C242A0AE6009A6110 /* NetworkScannerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B8B65B242A0AE6009A6110 /* NetworkScannerResult.swift */; };
+		B6C366302427B99700CEDC8A /* IPv4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C3662F2427B99700CEDC8A /* IPv4.swift */; };
+		B6D44D152428CFBD00EC5F43 /* PingerRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D44D142428CFBD00EC5F43 /* PingerRange.swift */; };
+		B6DE0E7E242665050099EC78 /* PingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E7D242665050099EC78 /* PingManager.swift */; };
+		B6DE0E82242667DA0099EC78 /* PingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E81242667DA0099EC78 /* PingRouter.swift */; };
+		B6DE0E84242669DB0099EC78 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E83242669DB0099EC78 /* EndPointType.swift */; };
+		B6DE0E8624266A540099EC78 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E8524266A540099EC78 /* Router.swift */; };
+		B6DE0E88242670200099EC78 /* PingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E87242670200099EC78 /* PingError.swift */; };
+		B6DE0E8B242674BF0099EC78 /* PingSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE0E8A242674BF0099EC78 /* PingSetup.swift */; };
+		B6E7426324260AF400F1B6F8 /* UIView+SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7426224260AF400F1B6F8 /* UIView+SafeArea.swift */; };
+		B6E7426624260C3F00F1B6F8 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7426524260C3F00F1B6F8 /* NavigationViewController.swift */; };
+		B6E742682426150200F1B6F8 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E742672426150200F1B6F8 /* String+Localization.swift */; };
+		B6E7426D2426164900F1B6F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6E7426F2426164900F1B6F8 /* Localizable.strings */; };
+		B6E7427224261B9C00F1B6F8 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7427124261B9C00F1B6F8 /* ResultTableViewCell.swift */; };
+		B6E7427524261C4F00F1B6F8 /* PGFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7427424261C4F00F1B6F8 /* PGFonts.swift */; };
+		B6E7427824261CAE00F1B6F8 /* H1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7427724261CAE00F1B6F8 /* H1.swift */; };
+		D56ED23B3447FE7427179A36 /* Pods_Pinger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B830E694BBA8595490995318 /* Pods_Pinger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +51,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2910DE3263AECF007F41283C /* Pods_PingerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741B43EA709B19F4E31B3B17 /* Pods-PingerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingerTests.release.xcconfig"; path = "Target Support Files/Pods-PingerTests/Pods-PingerTests.release.xcconfig"; sourceTree = "<group>"; };
+		876954159D7128CD7591454C /* Pods-Pinger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinger.release.xcconfig"; path = "Target Support Files/Pods-Pinger/Pods-Pinger.release.xcconfig"; sourceTree = "<group>"; };
+		A11F37DBEB65E4387914A708 /* Pods-Pinger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinger.debug.xcconfig"; path = "Target Support Files/Pods-Pinger/Pods-Pinger.debug.xcconfig"; sourceTree = "<group>"; };
 		B651B34B24260634008440A6 /* Pinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B651B34E24260634008440A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B651B35024260634008440A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B651B35224260634008440A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B651B35524260634008440A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B651B35724260636008440A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B651B35A24260636008440A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B651B35C24260636008440A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B651B36124260636008440A6 /* PingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B651B36524260636008440A6 /* PingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingerTests.swift; sourceTree = "<group>"; };
 		B651B36724260636008440A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B651B376242609AD008440A6 /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		B65535D9242B5F2F004C9EDE /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		B65535DC242B7685004C9EDE /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		B65535DE242B776C004C9EDE /* Caption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caption.swift; sourceTree = "<group>"; };
+		B65535E0242B7B1C004C9EDE /* UITableView+EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyState.swift"; sourceTree = "<group>"; };
+		B68AFF8D2428E9D200F8733E /* NetworkScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkScanner.swift; sourceTree = "<group>"; };
+		B6AB287024268E33005DD4F5 /* PingSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingSummary.swift; sourceTree = "<group>"; };
+		B6B1619D242679E50027CDF8 /* UIDevice+ipAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+ipAddress.swift"; sourceTree = "<group>"; };
+		B6B8B65B242A0AE6009A6110 /* NetworkScannerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkScannerResult.swift; sourceTree = "<group>"; };
+		B6C3662F2427B99700CEDC8A /* IPv4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPv4.swift; sourceTree = "<group>"; };
+		B6D44D142428CFBD00EC5F43 /* PingerRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingerRange.swift; sourceTree = "<group>"; };
+		B6DE0E7D242665050099EC78 /* PingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingManager.swift; sourceTree = "<group>"; };
+		B6DE0E81242667DA0099EC78 /* PingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingRouter.swift; sourceTree = "<group>"; };
+		B6DE0E83242669DB0099EC78 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		B6DE0E8524266A540099EC78 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B6DE0E87242670200099EC78 /* PingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingError.swift; sourceTree = "<group>"; };
+		B6DE0E8A242674BF0099EC78 /* PingSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingSetup.swift; sourceTree = "<group>"; };
+		B6E7426224260AF400F1B6F8 /* UIView+SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SafeArea.swift"; sourceTree = "<group>"; };
+		B6E7426524260C3F00F1B6F8 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		B6E742672426150200F1B6F8 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		B6E7426C2426163000F1B6F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E7426E2426164900F1B6F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B6E7427124261B9C00F1B6F8 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		B6E7427424261C4F00F1B6F8 /* PGFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGFonts.swift; sourceTree = "<group>"; };
+		B6E7427724261CAE00F1B6F8 /* H1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H1.swift; sourceTree = "<group>"; };
+		B830E694BBA8595490995318 /* Pods_Pinger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDAE9B244619C0B6FF2E0E2 /* Pods-PingerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingerTests.debug.xcconfig"; path = "Target Support Files/Pods-PingerTests/Pods-PingerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56ED23B3447FE7427179A36 /* Pods_Pinger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +105,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BBDA38D453E9A2223BFA17 /* Pods_PingerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8BC343E12E31EE3869750D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A11F37DBEB65E4387914A708 /* Pods-Pinger.debug.xcconfig */,
+				876954159D7128CD7591454C /* Pods-Pinger.release.xcconfig */,
+				EBDAE9B244619C0B6FF2E0E2 /* Pods-PingerTests.debug.xcconfig */,
+				741B43EA709B19F4E31B3B17 /* Pods-PingerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44BF2F1353BF4F2953DE6876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B830E694BBA8595490995318 /* Pods_Pinger.framework */,
+				2910DE3263AECF007F41283C /* Pods_PingerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B651B34224260634008440A6 = {
 			isa = PBXGroup;
 			children = (
 				B651B34D24260634008440A6 /* Pinger */,
 				B651B36424260636008440A6 /* PingerTests */,
 				B651B34C24260634008440A6 /* Products */,
+				1F8BC343E12E31EE3869750D /* Pods */,
+				44BF2F1353BF4F2953DE6876 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +155,10 @@
 		B651B34D24260634008440A6 /* Pinger */ = {
 			isa = PBXGroup;
 			children = (
-				B651B34E24260634008440A6 /* AppDelegate.swift */,
-				B651B35024260634008440A6 /* SceneDelegate.swift */,
-				B651B35224260634008440A6 /* ViewController.swift */,
-				B651B35424260634008440A6 /* Main.storyboard */,
-				B651B35724260636008440A6 /* Assets.xcassets */,
-				B651B35924260636008440A6 /* LaunchScreen.storyboard */,
-				B651B35C24260636008440A6 /* Info.plist */,
+				B651B3732426080D008440A6 /* Controllers */,
+				B651B37224260808008440A6 /* Views */,
+				B651B370242607F7008440A6 /* Models */,
+				B651B37424260817008440A6 /* Supporting Files */,
 			);
 			path = Pinger;
 			sourceTree = "<group>";
@@ -99,6 +172,175 @@
 			path = PingerTests;
 			sourceTree = "<group>";
 		};
+		B651B370242607F7008440A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6D44D132428C54700EC5F43 /* Network Scanner */,
+				B6DE0E7B242664DE0099EC78 /* Ping Manager */,
+				B6E7427324261C4100F1B6F8 /* Fonts */,
+				B6E7426124260AA900F1B6F8 /* Extensions */,
+				B651B37524260983008440A6 /* Core */,
+				B6E7426B2426155100F1B6F8 /* Strings */,
+				B651B34E24260634008440A6 /* AppDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B651B37224260808008440A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B65535DB242B7671004C9EDE /* Empty States */,
+				B6E7427624261CA100F1B6F8 /* UILables */,
+				B6E7427024261B7A00F1B6F8 /* UITableView Cells */,
+				B651B35924260636008440A6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B651B3732426080D008440A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7426424260C2500F1B6F8 /* Navigation Controller */,
+				B651B35224260634008440A6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B651B37424260817008440A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B651B35724260636008440A6 /* Assets.xcassets */,
+				B651B35C24260636008440A6 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B651B37524260983008440A6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B651B376242609AD008440A6 /* Configure.swift */,
+				B6C3662F2427B99700CEDC8A /* IPv4.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B65535DB242B7671004C9EDE /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				B65535DC242B7685004C9EDE /* EmptyStateView.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
+		B6B8B65A242A0AD1009A6110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8B65B242A0AE6009A6110 /* NetworkScannerResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6D44D132428C54700EC5F43 /* Network Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8B65A242A0AD1009A6110 /* Model */,
+				B6D44D142428CFBD00EC5F43 /* PingerRange.swift */,
+				B68AFF8D2428E9D200F8733E /* NetworkScanner.swift */,
+			);
+			path = "Network Scanner";
+			sourceTree = "<group>";
+		};
+		B6DE0E7B242664DE0099EC78 /* Ping Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE0E89242674AD0099EC78 /* Ping Setup */,
+				B6DE0E80242667B90099EC78 /* Manager */,
+				B6DE0E7F242667AD0099EC78 /* Service */,
+			);
+			path = "Ping Manager";
+			sourceTree = "<group>";
+		};
+		B6DE0E7F242667AD0099EC78 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE0E81242667DA0099EC78 /* PingRouter.swift */,
+				B6DE0E83242669DB0099EC78 /* EndPointType.swift */,
+				B6DE0E8524266A540099EC78 /* Router.swift */,
+				B6DE0E87242670200099EC78 /* PingError.swift */,
+				B6AB287024268E33005DD4F5 /* PingSummary.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B6DE0E80242667B90099EC78 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE0E7D242665050099EC78 /* PingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B6DE0E89242674AD0099EC78 /* Ping Setup */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE0E8A242674BF0099EC78 /* PingSetup.swift */,
+			);
+			path = "Ping Setup";
+			sourceTree = "<group>";
+		};
+		B6E7426124260AA900F1B6F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6B1619D242679E50027CDF8 /* UIDevice+ipAddress.swift */,
+				B6E7426224260AF400F1B6F8 /* UIView+SafeArea.swift */,
+				B6E742672426150200F1B6F8 /* String+Localization.swift */,
+				B65535D9242B5F2F004C9EDE /* UIViewController+Alert.swift */,
+				B65535E0242B7B1C004C9EDE /* UITableView+EmptyState.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B6E7426424260C2500F1B6F8 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7426524260C3F00F1B6F8 /* NavigationViewController.swift */,
+			);
+			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		B6E7426B2426155100F1B6F8 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7426F2426164900F1B6F8 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B6E7427024261B7A00F1B6F8 /* UITableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7427124261B9C00F1B6F8 /* ResultTableViewCell.swift */,
+			);
+			path = "UITableView Cells";
+			sourceTree = "<group>";
+		};
+		B6E7427324261C4100F1B6F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7427424261C4F00F1B6F8 /* PGFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B6E7427624261CA100F1B6F8 /* UILables */ = {
+			isa = PBXGroup;
+			children = (
+				B6E7427724261CAE00F1B6F8 /* H1.swift */,
+				B65535DE242B776C004C9EDE /* Caption.swift */,
+			);
+			path = UILables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B651B36A24260636008440A6 /* Build configuration list for PBXNativeTarget "Pinger" */;
 			buildPhases = (
+				FC4D8FA81C55AB7AB60E2735 /* [CP] Check Pods Manifest.lock */,
 				B651B34724260634008440A6 /* Sources */,
 				B651B34824260634008440A6 /* Frameworks */,
 				B651B34924260634008440A6 /* Resources */,
+				9553EB97AF007FEAD5012B67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +367,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B651B36D24260636008440A6 /* Build configuration list for PBXNativeTarget "PingerTests" */;
 			buildPhases = (
+				D8CF5035116E4FD665EB888A /* [CP] Check Pods Manifest.lock */,
 				B651B35D24260636008440A6 /* Sources */,
 				B651B35E24260636008440A6 /* Frameworks */,
 				B651B35F24260636008440A6 /* Resources */,
@@ -162,7 +407,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = B651B34224260634008440A6;
 			productRefGroup = B651B34C24260634008440A6 /* Products */;
@@ -181,8 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B651B35B24260636008440A6 /* LaunchScreen.storyboard in Resources */,
+				B6E7426D2426164900F1B6F8 /* Localizable.strings in Resources */,
 				B651B35824260636008440A6 /* Assets.xcassets in Resources */,
-				B651B35624260634008440A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +439,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9553EB97AF007FEAD5012B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinger/Pods-Pinger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinger/Pods-Pinger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinger/Pods-Pinger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CF5035116E4FD665EB888A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4D8FA81C55AB7AB60E2735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pinger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B651B34724260634008440A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E7426324260AF400F1B6F8 /* UIView+SafeArea.swift in Sources */,
+				B6DE0E8B242674BF0099EC78 /* PingSetup.swift in Sources */,
+				B65535DD242B7685004C9EDE /* EmptyStateView.swift in Sources */,
+				B6C366302427B99700CEDC8A /* IPv4.swift in Sources */,
+				B6DE0E7E242665050099EC78 /* PingManager.swift in Sources */,
+				B6E7427524261C4F00F1B6F8 /* PGFonts.swift in Sources */,
+				B6D44D152428CFBD00EC5F43 /* PingerRange.swift in Sources */,
+				B6E7427824261CAE00F1B6F8 /* H1.swift in Sources */,
+				B68AFF8E2428E9D200F8733E /* NetworkScanner.swift in Sources */,
 				B651B35324260634008440A6 /* ViewController.swift in Sources */,
+				B6DE0E82242667DA0099EC78 /* PingRouter.swift in Sources */,
+				B6E7427224261B9C00F1B6F8 /* ResultTableViewCell.swift in Sources */,
 				B651B34F24260634008440A6 /* AppDelegate.swift in Sources */,
-				B651B35124260634008440A6 /* SceneDelegate.swift in Sources */,
+				B6DE0E88242670200099EC78 /* PingError.swift in Sources */,
+				B65535DF242B776C004C9EDE /* Caption.swift in Sources */,
+				B6DE0E84242669DB0099EC78 /* EndPointType.swift in Sources */,
+				B6E742682426150200F1B6F8 /* String+Localization.swift in Sources */,
+				B65535DA242B5F2F004C9EDE /* UIViewController+Alert.swift in Sources */,
+				B6B1619E242679E50027CDF8 /* UIDevice+ipAddress.swift in Sources */,
+				B6AB287124268E33005DD4F5 /* PingSummary.swift in Sources */,
+				B65535E1242B7B1C004C9EDE /* UITableView+EmptyState.swift in Sources */,
+				B6E7426624260C3F00F1B6F8 /* NavigationViewController.swift in Sources */,
+				B6B8B65C242A0AE6009A6110 /* NetworkScannerResult.swift in Sources */,
+				B651B377242609AD008440A6 /* Configure.swift in Sources */,
+				B6DE0E8624266A540099EC78 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +555,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B651B35424260634008440A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B651B35524260634008440A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B651B35924260636008440A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B651B35A24260636008440A6 /* Base */,
+				B6E7426C2426163000F1B6F8 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E7426F2426164900F1B6F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E7426E2426164900F1B6F8 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,11 +690,13 @@
 		};
 		B651B36B24260636008440A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11F37DBEB65E4387914A708 /* Pods-Pinger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55ZH6XK8Y;
-				INFOPLIST_FILE = Pinger/Info.plist;
+				INFOPLIST_FILE = "Pinger/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +710,13 @@
 		};
 		B651B36C24260636008440A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876954159D7128CD7591454C /* Pods-Pinger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z55ZH6XK8Y;
-				INFOPLIST_FILE = Pinger/Info.plist;
+				INFOPLIST_FILE = "Pinger/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +730,7 @@
 		};
 		B651B36E24260636008440A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDAE9B244619C0B6FF2E0E2 /* Pods-PingerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +753,7 @@
 		};
 		B651B36F24260636008440A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741B43EA709B19F4E31B3B17 /* Pods-PingerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
