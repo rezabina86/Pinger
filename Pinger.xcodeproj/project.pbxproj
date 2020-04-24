@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		50BBDA38D453E9A2223BFA17 /* Pods_PingerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910DE3263AECF007F41283C /* Pods_PingerTests.framework */; };
+		B63F1FA42453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png in Resources */ = {isa = PBXBuildFile; fileRef = B63F1FA12453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png */; };
+		B63F1FA52453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png in Resources */ = {isa = PBXBuildFile; fileRef = B63F1FA22453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png */; };
+		B63F1FA62453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png in Resources */ = {isa = PBXBuildFile; fileRef = B63F1FA32453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png */; };
 		B651B34F24260634008440A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B34E24260634008440A6 /* AppDelegate.swift */; };
 		B651B35324260634008440A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651B35224260634008440A6 /* ViewController.swift */; };
 		B651B35824260636008440A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B651B35724260636008440A6 /* Assets.xcassets */; };
@@ -55,6 +58,9 @@
 		741B43EA709B19F4E31B3B17 /* Pods-PingerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingerTests.release.xcconfig"; path = "Target Support Files/Pods-PingerTests/Pods-PingerTests.release.xcconfig"; sourceTree = "<group>"; };
 		876954159D7128CD7591454C /* Pods-Pinger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinger.release.xcconfig"; path = "Target Support Files/Pods-Pinger/Pods-Pinger.release.xcconfig"; sourceTree = "<group>"; };
 		A11F37DBEB65E4387914A708 /* Pods-Pinger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinger.debug.xcconfig"; path = "Target Support Files/Pods-Pinger/Pods-Pinger.debug.xcconfig"; sourceTree = "<group>"; };
+		B63F1FA12453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png"; sourceTree = "<group>"; };
+		B63F1FA22453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png"; sourceTree = "<group>"; };
+		B63F1FA32453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png"; sourceTree = "<group>"; };
 		B651B34B24260634008440A6 /* Pinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B651B34E24260634008440A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B651B35224260634008440A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +136,16 @@
 				2910DE3263AECF007F41283C /* Pods_PingerTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B63F1FA0245320EE00C1D1CD /* Git assets */ = {
+			isa = PBXGroup;
+			children = (
+				B63F1FA12453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png */,
+				B63F1FA32453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png */,
+				B63F1FA22453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png */,
+			);
+			path = "Git assets";
 			sourceTree = "<group>";
 		};
 		B651B34224260634008440A6 = {
@@ -209,6 +225,7 @@
 		B651B37424260817008440A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B63F1FA0245320EE00C1D1CD /* Git assets */,
 				B651B35724260636008440A6 /* Assets.xcassets */,
 				B651B35C24260636008440A6 /* Info.plist */,
 			);
@@ -424,7 +441,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63F1FA42453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.13.png in Resources */,
 				B651B35B24260636008440A6 /* LaunchScreen.storyboard in Resources */,
+				B63F1FA62453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.26.png in Resources */,
+				B63F1FA52453210000C1D1CD /* Simulator Screen Shot - iPhone 11 Pro - 2020-04-24 at 16.27.33.png in Resources */,
 				B6E7426D2426164900F1B6F8 /* Localizable.strings in Resources */,
 				B651B35824260636008440A6 /* Assets.xcassets in Resources */,
 			);
